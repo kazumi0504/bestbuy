@@ -1,0 +1,72 @@
+.toplogo {
+    width: 137px;
+    height: 40;
+}
+.title {
+    text-align: center;
+    padding:  20px 0px 5px 0px;
+}
+.title-logo {
+}
+
+
+.brand {
+    padding: 10px;
+}
+.brand-thum {
+    width: 50px;
+    height: 50px;
+}
+.brand-name {
+    font-size: 12px;
+}
+.brand-button {
+    background-color: #fff;
+    margin: 5px 0px 5px 20px;
+    padding: 10px;
+    width: 120px;
+    height: 100px;
+    line-height: 0;
+    text-align: center;
+}
+
+
+
+.category-header {
+    padding: 30px;
+    line-height: 1;
+}
+.category {
+    padding: 10px;
+    line-height: 1;
+}
+.category-thum {
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.category-name {
+    font-size: 15px;
+}
+
+.item-header {
+    padding: 30px;
+    line-height: 1;
+}
+.item {
+    padding: 10px;
+    line-height: 1;
+}
+.item-thum {
+    background-color: #ccc;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+.item-name {
+    font-size: 15px;
+}
+.item-name-sub {
+    font-size: 10px;
+}

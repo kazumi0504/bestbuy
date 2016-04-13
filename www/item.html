@@ -1,0 +1,97 @@
+<ons-page  ng-controller="ItemController" id="item-page" >
+    <ons-toolbar>
+        <div class="left"><ons-back-button>Back</ons-back-button></div>
+        <div class="center">ベストバイ</div>
+    </ons-toolbar>
+    <input type="text" style="width:200px;" ng-model="searchText">
+    
+    <ons-list>
+        <ons-list-header class="item-header"></ons-list-header>
+        <ons-list-item ng-repeat="data in itemdata | filter:searchText" modifier="chevron" class="item">
+            <ons-row>
+                <ons-col width="60px"> 
+                    <div class="item-thum"></div>
+                </ons-col>
+                <ons-col>
+                    <header>
+                        <span class="item-name">{{data.name}}</span>
+                    </header>
+                    <span class="item-name-sub">{{data.bland}} {{data.category}}</span>
+                 </ons-col>
+            </ons-row>
+        </ons-list-item>
+    </ons-list>
+    
+    <!--<ons-list id="item-list">
+        <ons-list-header class="item-header"></ons-list-header>
+        
+        <ons-list-item>
+            <span class="item-name">商品１</span>
+        </ons-list-item>
+        <ons-list-item>
+            <span class="item-name">商品２</span>
+        </ons-list-item>
+        <ons-list-item>
+            <span class="item-name">商品３</span>
+        </ons-list-item>
+    </ons-list>
+    -->
+    
+    
+    
+    
+    <!--<ons-list>
+        <ons-list-header class="item-header"></ons-list-header>
+        
+        <ons-list-item modifier="chevron" class="item">
+            <ons-row>
+                <ons-col width="60px"> 
+                    <div class="item-thum"></div>
+                </ons-col>
+                <ons-col>
+                    <header>
+                        <span class="item-name">商品１</span>
+                    </header>
+                </ons-col>
+            </ons-row>
+        </ons-list-item>
+        
+        <ons-list-item modifier="chevron" class="item">     
+            <ons-row>
+                <ons-col width="60px"> 
+                <div class="item-thum"></div>
+            </ons-col>
+            <ons-col>
+                <header>
+                    <span class="item-name">商品２</span>
+                </header>
+            </ons-col>
+            </ons-row>
+        </ons-list-item>
+        <ons-list-item modifier="chevron" class="item">
+            <ons-row>
+                <ons-col width="60px"> 
+                <div class="item-thum"></div>
+            </ons-col>
+            <ons-col>
+                <header>
+                    <span class="item-name">商品３</span>
+                </header>
+            </ons-col>
+            </ons-row>
+        </ons-list-item>
+        <ons-list-item modifier="chevron" class="item">
+            <ons-row>
+                <ons-col width="60px"> 
+                <div class="item-thum"></div>
+            </ons-col>
+            <ons-col>
+                <header>
+                    <span class="item-name">商品４</span>
+                </header>
+            </ons-col>
+            </ons-row>
+        </ons-list-item>
+    </ons-list>-->
+
+</ons-page>
